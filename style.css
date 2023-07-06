@@ -31,10 +31,19 @@ ul{
     flex-direction:row;
 }
 
-.nav-left, .nav-right {
+.nav-left {
     display:flex;
-    width: 50%;
-    justify-content: center;
+    width: 60%;
+    justify-content: left;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.nav-right{
+    display:flex;
+    width: 40%;
+    margin-right: 5%;
+    justify-content: space-around;
     align-items: center;
 }
 
